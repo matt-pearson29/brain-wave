@@ -1,3 +1,4 @@
+/*-------the main container for the whole game*/
 #main{
     background-color: whitesmoke;
     width: 550px;
@@ -9,6 +10,7 @@
     margin-right: 100px;
     
 }
+/*-----the first row of colored buttons*/
 
 #btnrow1{
     width: 545px;
@@ -62,6 +64,7 @@
     margin-left: 15px;
     margin-right: 15px;
 }
+/*---------the second row of colored buttons*/
 
 #btnrow2{
     width: 545px;
