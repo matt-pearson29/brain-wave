@@ -119,4 +119,57 @@
     margin-right: 15px;
 }
 
+/*---------main container for the controls*/
+
+#controls{
+    width: 540px;
+    height: 230px;
+    background-color: lightseagreen;
+    clear: both;
+    
+}
+#name{
+   width: 540px;
+    height: 40px;
+    background-color: lightseagreen;
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+     
+}
+
+#power{
+    width: 125px;
+    height: 180px;
+    background-color: lightseagreen;
+    clear: both;
+}
+
+#instructionstxt{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px; 
+}
+
+#instructions{
+    text-align: center;
+    clear: both;
+}
+
+#on{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    clear: both;
+}
+
+#switch{
+    text-align: center;
+    margin-left: 22px;
+    clear: both;
+}
+
+
+
 
