@@ -12,7 +12,7 @@
 
 #btnrow1{
     width: 545px;
-    height: 120px;
+    height: 180px;
     background-color: black;
     clear: both;
     
@@ -21,44 +21,99 @@
 #btn1{
     clear: both;
     width: 50px;
-    height: 100px;
+    height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     background-color: darkgreen;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-left: 10px;
 }
 
 #btn2{
     clear: both;
     width: 50px;
-    height: 100px;
+    height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     background-color: darkorange;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-left: 15px;
 }
 
 #btn3{
     clear: both;
     width: 50px;
-    height: 100px;
+    height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     background-color: darkred;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-left: 15px;
 }
 
 #btn4{
     clear: both;
     width: 50px;
-    height: 100px;
+    height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     background-color: darkblue;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-left: 15px;
     margin-right: 15px;
 }
+
+#btnrow2{
+    width: 545px;
+    height: 180px;
+    background-color: black;
+    clear: both;
+    
+    }
+
+#btn5{
+    clear: both;
+    width: 50px;
+    height: 120px;
+    column-gap: 4px;
+    border-radius: 10%;
+    background-color: darkmagenta;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#btn6{
+    clear: both;
+    width: 50px;
+    height: 120px;
+    column-gap: 4px;
+    border-radius: 10%;
+    background-color: darkolivegreen;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+#btn7{
+    clear: both;
+    width: 50px;
+    height: 120px;
+    column-gap: 4px;
+    border-radius: 10%;
+    background-color: darkviolet;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+#btn8{
+    clear: both;
+    width: 50px;
+    height: 120px;
+    column-gap: 4px;
+    border-radius: 10%;
+    background-color: darkturquoise;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
