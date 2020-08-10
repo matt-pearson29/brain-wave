@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Orbitron:wght@600&display=swap');
+
 /*-------the main container for the whole game*/
 #main{
     background-color: whitesmoke;
@@ -135,6 +137,7 @@
     clear: both;
     text-align: center;
     margin-top: 10px;
+    font-family: Orbitron;
      
 }
 
@@ -155,6 +158,7 @@
 #instructions{
     text-align: center;
     clear: both;
+    font-family: Exo;
 }
 
 #on{
@@ -166,8 +170,41 @@
 
 #switch{
     text-align: center;
-    margin-left: 22px;
+    margin-left: 28px;
     clear: both;
+    font-family: Exo;
+}
+
+#start{
+    width: 175px;
+    height: 180px;
+    background-color: lightseagreen;
+    clear: both; 
+}
+
+#startbtn{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border-color: red;
+    background-color: red;
+    margin-right:5px;
+    font-family: Orbitron;
+    font-size: 50%;
+}
+
+#counter{
+    width: 170px;
+    height: 180px;
+    background-color: lightseagreen;
+    clear: both;
+}
+
+#count{
+    width: 40px;
+    height: 55px;
+    background-color: white;
+    margin-left: 60px;
 }
 
 
