@@ -223,18 +223,23 @@
     clear: both;
 }
 
-#txt{
+#stricttxt{
     text-align: center;
     font-family: Exo;
-    margin-left: 10px;  
+    margin-left: 10px;
+    margin-bottom: 3px;  
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   #main {
     background-color: whitesmoke;
     width: 400px;
     height: 600px;
     border: 5px solid black;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
     
   }
   #btnrow1{
@@ -348,7 +353,7 @@
     clear: both;
 }
 
-#txt{
+#stricttxt{
     text-align: center;
     font-family: Exo;
     margin-left: 20px;  
