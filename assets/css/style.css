@@ -138,6 +138,8 @@
     text-align: center;
     margin-top: 10px;
     font-family: Orbitron;
+    font-size: 125%;
+    color:white; 
      
 }
 
@@ -190,7 +192,7 @@
     background-color: red;
     margin-right:5px;
     font-family: Orbitron;
-    font-size: 50%;
+    font-size: 250%;
 }
 
 #counter{
@@ -203,8 +205,154 @@
 #count{
     width: 40px;
     height: 55px;
-    background-color: white;
-    margin-left: 60px;
+    background-color: red;
+    margin-left: 50px;
+}
+
+#level{
+    text-align: center;
+    font-family: Exo;
+    margin-left: 43px;
+}
+
+#strict{
+    width: 30px;
+    height: 30px;
+    margin-left: 55px;
+    margin-top: 7px;
+    clear: both;
+}
+
+#txt{
+    text-align: center;
+    font-family: Exo;
+    margin-left: 10px;  
+}
+
+@media only screen and (max-width: 400px) {
+  #main {
+    background-color: whitesmoke;
+    width: 400px;
+    height: 600px;
+    border: 5px solid black;
+    
+  }
+  #btnrow1{
+    width: 395px;
+    height: 180px;
+    background-color: black;
+    clear: both;
+  }
+  #btnrow2{
+    width: 395px;
+    height: 180px;
+    background-color: black;
+    clear: both;
+  }
+  #controls{
+    width: 395px;
+    height: 230px;
+    background-color: lightseagreen;
+    clear: both;
+}
+  #name{
+   width: 395px;
+    height: 40px;
+    background-color: lightseagreen;
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Orbitron;
+    font-size: 125%;
+    color:white; 
+     
+}
+#power{
+    width: 65px;
+    height: 180px;
+    background-color: lightseagreen;
+    clear: both;
+}
+
+#instructionstxt{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px; 
+}
+
+#instructions{
+    text-align: center;
+    clear: both;
+    font-family: Exo;
+}
+
+#on{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    clear: both;
+}
+
+#switch{
+    text-align: center;
+    margin-left: 28px;
+    clear: both;
+    font-family: Exo;
+}
+
+#start{
+    width: 100px;
+    height: 150px;
+    background-color: lightseagreen;
+    clear: both; 
+}
+
+#startbtn{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-color: red;
+    background-color: red;
+    margin-right:5px;
+    margin-top: 50px;
+    font-family: Orbitron;
+    font-size: 100%;
+}
+
+#counter{
+    width: 65px;
+    height: 180px;
+    background-color: lightseagreen;
+    clear: both;
+}
+
+#count{
+    width: 40px;
+    height: 55px;
+    background-color: red;
+    margin-left: 50px;
+}
+
+#level{
+    text-align: center;
+    font-family: Exo;
+    margin-left: 43px;
+}
+
+#strict{
+    width: 20px;
+    height: 20px;
+    margin-left: 55px;
+    margin-top: 7px;
+    clear: both;
+}
+
+#txt{
+    text-align: center;
+    font-family: Exo;
+    margin-left: 20px;  
+}
 }
 
 
