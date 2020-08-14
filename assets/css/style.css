@@ -282,8 +282,8 @@
 }
 
 #instructionstxt{
-    height: 20px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     margin-top: 5px;
     margin-left: 20px;
     margin-bottom: 5px; 
@@ -293,21 +293,21 @@
     text-align: center;
     clear: both;
     font-family: Exo;
-    font-size: 25%;
+    font-size: 100%;
     
 }
 
 #on{
     width: 20px;
     height: 20px;
-    margin-left: 30px;
-    margin-top: 150px;
+    margin-left: 40px;
+    margin-top: 20px;
     clear: both;
 }
 
 #switch{
     text-align: center;
-    margin-left: 28px;
+    margin-left: 18px;
     clear: both;
     font-family: Exo;
 }
