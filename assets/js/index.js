@@ -2,7 +2,7 @@
 let order = [];
 let playerOrder = [];
 let flash;
-let count;
+let turn;
 let good;
 let compTurn;
 let intervalId;
@@ -32,7 +32,7 @@ function rulesFunction() {
 onButton.addEventListener('click', (event) => {
   if (onButton.checked == true) {
     on = true;
-    turnCounter.innerHTML = "00";
+    turnCounter.innerHTML = "0";
   } else {
     on = false;
     turnCounter.innerHTML = "";
