@@ -29,19 +29,17 @@ function rulesFunction() {
 } 
 
 //Turns the game on and off.//
-onButton.addEventListener('click', (event) => {
-  if (onButton.checked == true) {
+on.addEventListener('click',() => {
+  if (on.checked == true) {
     on = true;
-    turnCounter.innerHTML = "0";
+    count.innerHTML = 0;
   } else {
     on = false;
-    turnCounter.innerHTML = "";
-    clearColor();
-    clearInterval(intervalId);
+    count.innerHTML = "";
   }
 });
 //selects default or strict mode//
-strictButton.addEventListener('click', (event) => {
+strictButton.addEventListener('click', (_event) => {
   if (strictButton.checked == true) {
     strict = true;
   } else {
