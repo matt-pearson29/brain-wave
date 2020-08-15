@@ -31,16 +31,18 @@
   <div class="row" id="controls">
   <div id="name"><span>BRAIN WAVE</span></div>
   <div class="col" id="power">
-  <div id="instructionstxt"><button id="instructions" <button onclick="rulesFunction()">Rules</button></div>
-  <div><input type="checkbox" class="toggle" id="on"></div>
+  <div id="instructionstxt"><button id="instructions" onclick="rulesFunction()">Rules</button></div>
+  <div><input type="checkbox" onclick="turnon()" id="on"></div>
   <div  id="switchtxt"><span id="switch">ON/OFF</span></div>
   </div>
   <div class="col" id="start">
   <button class="button" id="startbtn">Start</button>
   </div>
   <div class="col" id="counter">
-  <div  id="count"></div>
-  <div  id="turn"><span id="level">LEVEL</span></div>
+  
+    <p id="count">-</p>
+  
+  <div id="turn"><span id="level">LEVEL</span></div>
   <input type="checkbox" class="toggle" id="strict">
   <div  id="stricttxt">Strict Mode</div>
   </div>

@@ -203,9 +203,9 @@
 }
 
 #count{
-    width: 50px;
-    height: 30px;
-    background-color: red;
+    width: 80px;
+    height: 35px;
+    background: red;
     margin-left: 50px;
     font-family: Orbitron;
     font-size: 20px;
