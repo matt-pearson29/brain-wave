@@ -14,37 +14,42 @@
 <!---the main container for the whole app.-->
  <div class="container-fluid" id="main">
  <!--the first row for the colored buttons-->
-  <div class="row" id="btnrow1">
-  <div class="col inline-item" id="btn1"></div>
-  <div class="col inline-item" id="btn2"></div>
-  <div class="col inline-item" id="btn3"></div>
-  <div class="col inline-item" id="btn4"></div>
-  </div>
-  <!--the second row of colored buttons-->
+  <div class="row" id="btnrow1" >
+  <div class=" inline-item"><button class=" color1" id="btn1"></button></div>
+  <div class=" inline-item"><button class=" color2" id="btn2"></button></div>
+  <div class=" inline-item"><button class=" color3" id="btn3"></button></div>
+  <div class=" inline-item"><button class=" color4" id="btn4"></button></div>
+  
+  <!--the second row for the colored buttons-->
   <div class="row" id="btnrow2">
-  <div class="col inline-item" id="btn5"></div>
-  <div class="col inline-item" id="btn6"></div>
-  <div class="col inline-item" id="btn7"></div>
-  <div class="col inline-item" id="btn8"></div>
+  <div class=" inline-item"><button class=" color5" id="btn5"></button></div>
+  <div class=" inline-item"><button class=" color6" id="btn6"></button></div>
+  <div class=" inline-item"><button class=" color7" id="btn7"></button></div>
+  <div class=" inline-item"><button class=" color8" id="btn8"></button></div>
   </div>
+  
   <!--the main container for the games controls-->
   <div class="row" id="controls">
   <div id="name"><span>BRAIN WAVE</span></div>
   <div class="col" id="power">
-  <div id="instructionstxt"><button id="instructions" onclick="rulesFunction()">Rules</button></div>
-  <div><input type="checkbox" onclick="turnon()" id="on"></div>
-  <div  id="switchtxt"><span id="switch">ON/OFF</span></div>
+   <button id="instructions" onclick="rulesFunction()">Rules</button>
+   <div class="row"><button id="on" class="bt">on</button>
+   <button id="off" class="bt">off</button></div>
   </div>
   <div class="col" id="start">
-  <button class="button" onclick="startButtonFunction()" id="startbtn">Start</button>
+  <button class="button" id="startbtn">Start</button>
   </div>
   <div class="col" id="counter">
-  <div id="level">  </div>  
-  <div id="turn"><span id="level1">LEVEL</span></div>
-  <div><input type="checkbox" onclick="strictM()" id="strict"></div>
-  <div  id="stricttxt">Strict Mode</div>
+     <div>count</div>
+       <form id="count">  </form>
+  <div class="row"><button id="strict" class="bt">strict</button>
   </div>
   </div>
- </div>   
+  </div>
+ </div>
+ </div>
+ <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+ <script  src="assets/js/index.js"></script>
+
 </body>
 </html>
