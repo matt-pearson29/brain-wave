@@ -24,43 +24,43 @@
 
 #btn1{
     clear: both;
-    width: 80px;
+    width: 100px;
     height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 27px;
 }
 
 #btn2{
     clear: both;
-    width: 80px;
+    width: 100px;
     height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 27px;
 }
 
 #btn3{
     clear: both;
-    width: 80px;
+    width: 100px;
     height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 27px;
 }
 
 #btn4{
     clear: both;
-    width: 80px;
+    width: 100px;
     height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     margin-top: 25px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 27px;
+    margin-right: 27px;
 }
 /*---------the second row of colored buttons*/
 
@@ -76,43 +76,43 @@
 
 #btn5{
     clear: both;
-    width: 80px;
+    width: 100px;
     height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 27px;
 }
 
 #btn6{
     clear: both;
-    width: 80px;
+    width: 100px;
     height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 27px;
 }
 
 #btn7{
     clear: both;
-    width: 80px;
+    width: 100px;
     height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 27px;
 }
 
 #btn8{
     clear: both;
-    width: 80px;
+    width: 100px;
     height: 120px;
     column-gap: 4px;
     border-radius: 10%;
     margin-top: 25px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 27px;
+    margin-right: 27px;
 }
 /*---------light and dark colors for the buttons*/
         .color1 {
@@ -158,7 +158,7 @@
         }
 
         .light6 {
-            background-color: orchid;
+            background-color: lavender;
         }
         .color7 {
             background-color: darkcyan;
@@ -172,7 +172,7 @@
         }
 
         .light8 {
-            background-color: olive;
+            background-color: lawngreen;
         }
 
 
