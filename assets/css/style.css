@@ -119,7 +119,7 @@
             background-color: darkgreen;
         }
 
-        .light1 {
+        .lighton1 {
             background-color: #13FF75;
         }
 
@@ -127,7 +127,7 @@
             background-color: goldenrod;
         }
 
-        .light2 {
+        .lighton2 {
             background-color: yellow;
         }
 
@@ -136,7 +136,7 @@
             background-color: darkred;
         }
 
-        .light3 {
+        .lighton3 {
             background-color: red;
         }
 
@@ -144,34 +144,34 @@
             background-color: darkblue;
         }
 
-        .light4 {
+        .lighton4 {
             background-color: #73feff;
         }
         .color5 {
             background-color: darkorange;
         }
-        .light5 {
-            background-color: orange;
+        .lighton5 {
+            background-color: #f5ba7a;
         }
         .color6 {
             background-color: darkorchid;
         }
 
-        .light6 {
+        .lighton6 {
             background-color: lavender;
         }
         .color7 {
             background-color: darkcyan;
         }
 
-        .light7 {
+        .lighton7 {
             background-color: cyan;
         }
         .color8 {
             background-color: darkolivegreen;
         }
 
-        .light8 {
+        .lighton8 {
             background-color: lawngreen;
         }
 
@@ -250,6 +250,19 @@
     font-family: Orbitron;
     font-size: 250%;
 }
+
+@media only screen and (max-width: 850px) {
+  #main {
+    background-color: whitesmoke;
+    width: 550px;
+    height: 600px;
+    border: 5px solid black;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    
+  }
 
 @media only screen and (max-width: 500px) {
   #main {

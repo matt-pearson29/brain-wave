@@ -20,7 +20,7 @@ function rulesFunction() {
 
 function change1() {
 
-        //set interval length
+//sets the time interval lengths//
         if (count <= 10) {
             off = 400;
             on = 800;
@@ -31,12 +31,12 @@ function change1() {
             off = 250;
             on = 500;
         }
-
+//sets the random button flashes for the games turn.//
                x = setInterval(function () {
 
                 if (random[j] == 1) {
 
-                    lit = 'light1';
+                    lit = 'lighton1';
                     $('#btn1').addClass(lit);
                     
                     litID.push(1);
@@ -52,7 +52,7 @@ function change1() {
 
                 else if (random[j] == 2) {
 
-                    lit = 'light2';
+                    lit = 'lighton2';
                     $('#btn2').addClass(lit);
                     
                     litID.push(2);
@@ -68,7 +68,7 @@ function change1() {
 
                 else if (random[j] == 3) {
 
-                    lit = 'light3';
+                    lit = 'lighton3';
                     $('#btn3').addClass(lit);
                     
                     litID.push(3)
@@ -84,7 +84,7 @@ function change1() {
 
                 else if (random[j] == 4) {
 
-                    lit = 'light4';
+                    lit = 'lighton4';
                     $('#btn4').addClass(lit);
                     
                     litID.push(4);
@@ -99,7 +99,7 @@ function change1() {
                 }
                 else if (random[j] == 5) {
 
-                    lit = 'light5';
+                    lit = 'lighton5';
                     $('#btn5').addClass(lit);
                 
                     litID.push(5);
@@ -114,7 +114,7 @@ function change1() {
                 }
                 else if (random[j] == 6) {
 
-                    lit = 'light6';
+                    lit = 'lighton6';
                     $('#btn6').addClass(lit);
                     
                     litID.push(6);
@@ -129,7 +129,7 @@ function change1() {
                 }
                 else if (random[j] == 7) {
 
-                    lit = 'light7';
+                    lit = 'lighton7';
                     $('#btn7').addClass(lit);
                     
                     litID.push(7);
@@ -144,7 +144,7 @@ function change1() {
                 }
                 else  {
 
-                    lit = 'light8';
+                    lit = 'lighton8';
                     
                     litID.push(8);
 
@@ -165,11 +165,12 @@ function change1() {
             }, on);
 
     }
-
+/*function to check against the random sequence and player clicked sequence. Display wrong sequence clicked
+ in default mode, reset in strict mode or the player has won the game. Or needs to progress to the next level.*/
 
     function checking() {
 
-        if (litID.length == clicked.length) {
+        if (litID.length == clicked.length){
 
                 if (litID.join() == clicked.join()) {
 
@@ -236,7 +237,7 @@ $('#off').on('click', function () {
 //starts the game//
 $('#startbtn').on('click', function () {
 
-            $('#count').text('1');
+            $('#count').text(' 1');
 
             change1();
 
@@ -245,14 +246,14 @@ $('#startbtn').on('click', function () {
 //player to play game//
 $('#btn1').on('click', function () {
 
-            $('#btn1').addClass('light1');
+            $('#btn1').addClass('lighton1');
             
 
             clicked.push(1);
 
             setTimeout(function () {
-                $('#btn1').removeClass('light1');
-
+                $('#btn1').removeClass('lighton1');
+            
             }, 250);
 
             checking();
@@ -261,13 +262,13 @@ $('#btn1').on('click', function () {
 
         $('#btn2').on('click', function () {
 
-            $('#btn2').addClass('light2');
+            $('#btn2').addClass('lighton2');
             
 
             clicked.push(2);
 
             setTimeout(function () {
-                $('#btn2').removeClass('light2');
+                $('#btn2').removeClass('lighton2');
 
             }, 250);
 
@@ -276,13 +277,13 @@ $('#btn1').on('click', function () {
 
         $('#btn3').on('click', function () {
 
-            $('#btn3').addClass('light3');
+            $('#btn3').addClass('lighton3');
             
 
             clicked.push(3);
 
             setTimeout(function () {
-                $('#btn3').removeClass('light3');
+                $('#btn3').removeClass('lighton3');
 
             }, 250);
 
@@ -291,13 +292,13 @@ $('#btn1').on('click', function () {
 
         $('#btn4').on('click', function () {
 
-            $('#btn4').addClass('light4');
+            $('#btn4').addClass('lighton4');
             
 
             clicked.push(4);
 
             setTimeout(function () {
-                $('#btn4').removeClass('light4');
+                $('#btn4').removeClass('lighton4');
 
             }, 250);
 
@@ -306,12 +307,12 @@ $('#btn1').on('click', function () {
 
         $('#btn5').on('click', function () {
 
-            $('#btn5').addClass('light5');
+            $('#btn5').addClass('lighton5');
             
             clicked.push(5);
 
             setTimeout(function () {
-                $('#btn5').removeClass('light5');
+                $('#btn5').removeClass('lighton5');
 
             }, 250);
 
@@ -320,13 +321,13 @@ $('#btn1').on('click', function () {
 
         $('#btn6').on('click', function () {
 
-            $('#btn6').addClass('light6');
+            $('#btn6').addClass('lighton6');
             
 
             clicked.push(6);
 
             setTimeout(function () {
-                $('#btn6').removeClass('light6');
+                $('#btn6').removeClass('lighton6');
 
             }, 250);
 
@@ -335,13 +336,13 @@ $('#btn1').on('click', function () {
 
         $('#btn7').on('click', function () {
 
-            $('#btn7').addClass('light7');
+            $('#btn7').addClass('lighton7');
             
 
             clicked.push(7);
 
             setTimeout(function () {
-                $('#btn7').removeClass('light7');
+                $('#btn7').removeClass('lighton7');
 
             }, 250);
 
@@ -350,13 +351,13 @@ $('#btn1').on('click', function () {
 
         $('#btn8').on('click', function () {
 
-            $('#btn8').addClass('light8');
+            $('#btn8').addClass('lighton8');
             
 
             clicked.push(8);
 
             setTimeout(function () {
-                $('#btn8').removeClass('light8');
+                $('#btn8').removeClass('lighton8');
 
             }, 250);
 
