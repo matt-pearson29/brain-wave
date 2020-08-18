@@ -23,13 +23,13 @@ function change1() {
 //sets the time interval lengths//
         if (count <= 10) {
             off = 400;
-            on = 800;
+            on = 1500;
 
         }
 
         else {
             off = 250;
-            on = 500;
+            on = 700;
         }
 //sets the random button flashes for the games turn.//
                x = setInterval(function () {
@@ -145,6 +145,7 @@ function change1() {
                 else  {
 
                     lit = 'lighton8';
+                    $('#btn8').addClass(lit);
                     
                     litID.push(8);
 
@@ -206,7 +207,7 @@ function change1() {
                         setTimeout(function () {
                             $('#count').text('!!');
 
-                            litID = [];
+                            lightupID = [];
                             clicked = [];
                             j = 0;
                             change1();
