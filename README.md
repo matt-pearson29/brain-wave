@@ -32,7 +32,7 @@ All features have been completed.
 
 ## TECHNOLOGIES USED
 
-- [HTML](http://html.com) <br>Used because all sedia types containsites need to be built upon a base of HTML code.<br>
+- [HTML](http://html.com) <br>Used because all sites and webb apps need to be built upon a base of HTML code.<br>
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)<br> Used to style the pages of the site for good UI/UX.<br>
 - [BOOTSTRAP](https://getbootstrap.com/)<br> Used for ease of actions and layout.<br>
 - [java script](https://www.javascript.com/)<br> For interaction with the webb game.<br>
